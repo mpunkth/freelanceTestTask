@@ -11,11 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d8d2dcf-c17e-4809-b490-05547f3d3967" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/timelogs/timelogs.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.symfony.cloud.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.symfony.cloud.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/TimelogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TimelogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600331698688</updated>
-      <workItem from="1600331700029" duration="1441000" />
+      <workItem from="1600331700029" duration="1868000" />
     </task>
     <servers />
   </component>
@@ -180,9 +180,17 @@
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="514" y="317" key="#Composer/-1920.23.1920.1057/0.23.1440.814@0.23.1440.814" timestamp="1600331753830" />
+    <state x="0" y="23" key="FileDocumentManager.FileCacheConflict" timestamp="1600333649061">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="0" y="23" key="FileDocumentManager.FileCacheConflict/-1920.23.1920.1057/0.23.1440.814@0.23.1440.814" timestamp="1600333649061" />
     <state x="365" y="163" key="NewPhpClassDialog" timestamp="1600332023221">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="365" y="163" key="NewPhpClassDialog/-1920.23.1920.1057/0.23.1440.814@0.23.1440.814" timestamp="1600332023221" />
+    <state x="418" y="23" width="604" height="814" key="find.popup" timestamp="1600333547685">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="418" y="23" width="604" height="814" key="find.popup/-1920.23.1920.1057/0.23.1440.814@0.23.1440.814" timestamp="1600333547685" />
   </component>
 </project>
