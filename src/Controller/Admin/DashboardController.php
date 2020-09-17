@@ -31,6 +31,6 @@ class DashboardController extends AbstractDashboardController
     public function configureMenuItems(): iterable
     {
         yield MenuItem::linktoDashboard('Timelogs', 'fa fa-home');
-        // yield MenuItem::linkToCrud('The Label', 'icon class', EntityClass::class);
+        yield MenuItem::linkToCrud('The Label', 'icon class', EntityClass::class);
     }
 }

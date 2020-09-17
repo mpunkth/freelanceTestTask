@@ -22,6 +22,7 @@ class TimelogCrudController extends AbstractCrudController
         return [
             DateTimeField::new('TimeStart'),
             DateTimeField::new('TimeStop'),
+            TextField::new('HoursSpent'),
             TextField::new('Task'),
             TextField::new('Customer')
         ];

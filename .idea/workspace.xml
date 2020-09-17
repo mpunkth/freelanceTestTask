@@ -12,7 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1d8d2dcf-c17e-4809-b490-05547f3d3967" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/TimelogCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/TimelogCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Timelog.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Timelog.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600331698688</updated>
-      <workItem from="1600331700029" duration="6389000" />
+      <workItem from="1600331700029" duration="9648000" />
     </task>
     <task id="LOCAL-00001" summary="edited gitignore, added docker-compose.yml">
       <created>1600334760367</created>
@@ -210,7 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600336376602</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="configured fields an general easyadmin configuration">
+      <created>1600341281341</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600341281341</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added entitiy for hoursspent">
+      <created>1600341301326</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600341301326</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +250,9 @@
     <MESSAGE value="added Timelog Entity" />
     <MESSAGE value="added db" />
     <MESSAGE value=".env edit docker db" />
-    <option name="LAST_COMMIT_MESSAGE" value=".env edit docker db" />
+    <MESSAGE value="configured fields an general easyadmin configuration" />
+    <MESSAGE value="added entitiy for hoursspent" />
+    <option name="LAST_COMMIT_MESSAGE" value="added entitiy for hoursspent" />
   </component>
   <component name="WindowStateProjectService">
     <state x="514" y="317" key="#Composer" timestamp="1600331753830">
@@ -258,5 +275,9 @@
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="418" y="23" width="604" height="814" key="find.popup/-1920.23.1920.1057/0.23.1440.814@0.23.1440.814" timestamp="1600333547685" />
+    <state x="385" y="197" width="670" height="676" key="search.everywhere.popup" timestamp="1600343170789">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="197" width="670" height="676" key="search.everywhere.popup/-1920.23.1920.978/0.23.1440.877@0.23.1440.877" timestamp="1600343170789" />
   </component>
 </project>

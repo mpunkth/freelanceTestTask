@@ -102,13 +102,12 @@ class Timelog
 
     public function getHoursSpent(): ?string
     {
-        return $this->$this->getTimeStart() - $this->getTimeStop();
+         return $this->HoursSpent;
     }
 
     public function setHoursSpent(?string $HoursSpent): self
     {
         $this->HoursSpent = $HoursSpent;
-
         return $this;
     }
 }
