@@ -11,12 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d8d2dcf-c17e-4809-b490-05547f3d3967" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/TimelogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TimelogController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,8 +153,58 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600331698688</updated>
-      <workItem from="1600331700029" duration="2529000" />
+      <workItem from="1600331700029" duration="4841000" />
     </task>
+    <task id="LOCAL-00001" summary="edited gitignore, added docker-compose.yml">
+      <created>1600334760367</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600334760367</updated>
+    </task>
+    <task id="LOCAL-00002" summary="edit TimelogController.php">
+      <created>1600334811551</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600334811551</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added postgresql config to docker-compose.yml">
+      <created>1600334894946</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600334894946</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added DBURL to .env">
+      <created>1600335079380</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600335079380</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added Timelog Entity">
+      <created>1600335848678</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600335848678</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added db">
+      <created>1600335914828</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600335914828</updated>
+    </task>
+    <task id="LOCAL-00007" summary=".env edit docker db">
+      <created>1600336376602</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600336376602</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,11 +221,25 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="edited gitignore, added docker-compose.yml" />
+    <MESSAGE value="edit TimelogController.php" />
+    <MESSAGE value="added postgresql config to docker-compose.yml" />
+    <MESSAGE value="added DBURL to .env" />
+    <MESSAGE value="added Timelog Entity" />
+    <MESSAGE value="added db" />
+    <MESSAGE value=".env edit docker db" />
+    <option name="LAST_COMMIT_MESSAGE" value=".env edit docker db" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="514" y="317" key="#Composer" timestamp="1600331753830">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="514" y="317" key="#Composer/-1920.23.1920.1057/0.23.1440.814@0.23.1440.814" timestamp="1600331753830" />
+    <state x="100" y="123" width="1240" height="614" key="DiffContextDialog" timestamp="1600334837875">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="100" y="123" width="1240" height="614" key="DiffContextDialog/-1920.23.1920.1057/0.23.1440.814@0.23.1440.814" timestamp="1600334837875" />
     <state x="0" y="23" key="FileDocumentManager.FileCacheConflict" timestamp="1600333649061">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
