@@ -14,7 +14,7 @@ class TimelogController extends AbstractController
     {
         $number = random_int(0, 100);
 
-        return $this->render('timelogs.html.twig', [
+        return $this->render('timelogs/timelogs.html.twig', [
             'number' => $number,
         ]);
     }
