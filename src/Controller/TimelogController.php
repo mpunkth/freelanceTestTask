@@ -3,8 +3,9 @@
 
 namespace App\Controller;
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
-class TimelogController
+class TimelogController extends AbstractController
 {
     /**
      * @Route("/timelogs")
