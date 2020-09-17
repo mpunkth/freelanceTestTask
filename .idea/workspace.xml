@@ -11,9 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d8d2dcf-c17e-4809-b490-05547f3d3967" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/my_project_name.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_project_name.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/TimelogCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/TimelogCrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Timelog.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Timelog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +140,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-uuid" />
       <path value="$PROJECT_DIR$/vendor/symfony/string" />
       <path value="$PROJECT_DIR$/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/vendor/cmen/google-charts-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hdChBC4Ww9Ud7tJccxJ82l3GQw" />
@@ -160,7 +162,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600331698688</updated>
-      <workItem from="1600331700029" duration="9648000" />
+      <workItem from="1600331700029" duration="10423000" />
     </task>
     <task id="LOCAL-00001" summary="edited gitignore, added docker-compose.yml">
       <created>1600334760367</created>
@@ -225,7 +227,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600341301326</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added GoogleBarCharts">
+      <created>1600344301692</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600344301692</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added the Input of Hours to the EasyAdmin Form">
+      <created>1600344361605</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600344361605</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +268,9 @@
     <MESSAGE value=".env edit docker db" />
     <MESSAGE value="configured fields an general easyadmin configuration" />
     <MESSAGE value="added entitiy for hoursspent" />
-    <option name="LAST_COMMIT_MESSAGE" value="added entitiy for hoursspent" />
+    <MESSAGE value="added GoogleBarCharts" />
+    <MESSAGE value="added the Input of Hours to the EasyAdmin Form" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the Input of Hours to the EasyAdmin Form" />
   </component>
   <component name="WindowStateProjectService">
     <state x="514" y="317" key="#Composer" timestamp="1600331753830">
