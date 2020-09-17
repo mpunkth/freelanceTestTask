@@ -37,6 +37,11 @@ class Timelog
      */
     private $Customer;
 
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $HoursSpent;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -86,6 +91,23 @@ class Timelog
     public function setCustomer(string $Customer): self
     {
         $this->Customer = $Customer;
+
+        return $this;
+    }
+
+    public function __toString()
+    {
+        return $this->getTimeStart() . " " . $this->getTimeStop();
+    }
+
+    public function getHoursSpent(): ?string
+    {
+        return $this->$this->getTimeStart() - $this->getTimeStop();
+    }
+
+    public function setHoursSpent(?string $HoursSpent): self
+    {
+        $this->HoursSpent = $HoursSpent;
 
         return $this;
     }
